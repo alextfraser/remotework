@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .leaflet-container {
+    @apply rounded-lg shadow-md;
+  }
+  
+  .leaflet-popup-content-wrapper {
+    @apply rounded-lg shadow-lg;
+  }
+  
+  .leaflet-popup-content {
+    @apply m-0;
+  }
+}
